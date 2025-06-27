@@ -12361,9 +12361,11 @@ a {
 
 /* 共通 class */
 .banner {
-  background: transparent url(assets/img/banner.jpg) 0 0 no-repeat fixed;
+  /* background: transparent url(../assets/img/banner.jpg) 0 0 no-repeat fixed; */
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="assets/img/banner.jpg", sizingMethod="scale");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../assets/img/banner.jpg", sizingMethod="scale");
   height: 400px;
   width: 100%;
   margin-bottom: 3em;
