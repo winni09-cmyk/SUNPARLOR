@@ -12361,7 +12361,7 @@ a {
 
 /* 共通 class */
 .banner {
-  background: transparent url(../assets/img/banner_1.jpg) 0 0 no-repeat fixed;
+  background: transparent url(../assets/img/banner.jpg) 0 0 no-repeat fixed;
   background-size: cover;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../assets/img/banner.jpg", sizingMethod="scale");
   height: 400px;
@@ -12400,13 +12400,13 @@ a {
 }
 
 .img-divien {
-  background-image: url(/assets/img/home-icon-divine.png);
+  background-image: url(/assets/img/icondivine.png);
 }
 
 .img-works {
-  background-image: url(/assets/img/home-icon-works.png);
+  background-image: url(/assets/img/iconworks.png);
 }
 
 .img-light {
-  background-image: url(/assets/img/home-icon-light.png);
+  background-image: url(/assets/img/iconlight.png);
 }/*# sourceMappingURL=all.css.map */
